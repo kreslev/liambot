@@ -9,3 +9,5 @@ help.py holds some generic responses and is where simple prewritten responses sh
 emailSender.py builds an email based off of inputs and then sends it to the emails stored in its array.
 
 liam.py handles the more complex responses.
+
+.env is an environment file that holds tokens and passwords.
