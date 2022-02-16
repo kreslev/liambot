@@ -9,8 +9,8 @@ def sendEmail(sender, post):
     #Sets up email connection.
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
-    sender_email = "liambotdiscord@gmail.com"  # Enter your address
-    receiver_emails = ["jordanholt@leeuniversity.edu", "david.wesley.jackson@gmail.com"]  # Enter receiver address
+    sender_email = "senderemail@email.com"  # Enter your address
+    receiver_emails = ["email1@example.com", "email1@example.com"]  # Enter receiver address
     password = os.getenv('EMAIL_TOKEN')
     
     #Gets current time
